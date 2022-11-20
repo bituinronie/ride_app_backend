@@ -1,81 +1,715 @@
-min_age,max_age,low_systolic,low_diastolic,high_systolic,high_diastolic,heart_below,heart_above,respiration_below,allow_ride,suggestion
-14,19,105,73,120,87,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+﻿age,systolic,diastolic,heart_rate,respiration_rate,allow_ride,suggestion
+14,100,70,45,80,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
 
 For immediate treatment, Lie Down and Take Deep Breaths. 
 
 For Long Term treatment, consult your Doctor.
 Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-14,19,117,77,117,77,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+15,101,71,46,81,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+16,102,72,46,82,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+17,103,73,47,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+18,104,73,48,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+19,105,73,48,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+20,106,74,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+21,106,74,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+22,107,75,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+23,107,75,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+24,108,75,47,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+25,108,76,47,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+26,109,76,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+27,109,77,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+28,110,77,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+29,110,78,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+30,110,77,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+31,111,77,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+32,111,77,48,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+33,110,78,48,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+34,110,78,48,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+35,110,78,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+36,110,78,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+37,111,78,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+38,111,79,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+39,111,79,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+40,112,79,49,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+41,112,79,49,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+42,112,79,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+43,113,80,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+44,113,80,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+45,113,80,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+46,114,80,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+47,115,80,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+48,115,81,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+49,115,81,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+50,115,81,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+51,116,81,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+52,116,81,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+53,116,82,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+54,117,82,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+55,118,82,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+56,118,82,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+57,118,82,48,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+58,118,82,49,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+59,119,83,49,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+60,120,83,48,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+61,120,83,48,86,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+62,121,83,48,86,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+63,121,83,49,86,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+64,121,83,49,86,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+14,120,87,82,80,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+15,121,87,82,81,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+16,122,87,83,82,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+17,123,88,83,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+18,123,88,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+19,123,88,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+20,130,83,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+21,130,83,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+22,131,84,82,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+23,131,84,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+24,132,85,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+25,133,84,82,80,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+26,133,85,82,81,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+27,133,85,82,82,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+28,133,85,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+29,134,85,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+30,134,85,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+31,134,85,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+32,134,86,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+33,135,86,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+34,135,86,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+35,135,86,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+36,135,87,82,80,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+37,135,87,82,81,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+38,136,87,83,82,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+39,136,87,83,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+40,137,87,82,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+41,137,87,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+42,137,87,82,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+43,138,88,83,83,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+44,138,88,83,84,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+45,139,88,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+46,139,88,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+47,139,88,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+48,139,89,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+49,140,89,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+50,140,89,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+51,141,89,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+52,141,89,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+53,142,89,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+54,142,90,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+55,143,90,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+56,143,90,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+57,143,90,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+58,144,90,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+59,144,90,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+60,145,91,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+61,145,91,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+62,146,91,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+63,147,91,83,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+64,147,91,82,85,NO,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+14,115,75,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-20,24,108,75,132,83,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-20,24,120,79,120,79,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+15,116,75,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-25,29,109,76,133,84,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-25,29,121,80,133,84,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+16,116,76,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-30,34,110,77,134,85,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-30,34,122,81,134,85,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+17,117,76,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-35,39,111,78,135,86,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-35,39,123,82,123,82,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+18,117,77,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-40,44,112,79,137,87,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-40,44,125,83,125,83,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+19,117,77,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-45,49,115,80,139,88,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-45,49,127,84,127,84,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+20,118,78,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-50,54,116,81,142,89,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-50,54,129,85,129,85,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+21,119,78,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-55,59,118,82,144,90,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-55,59,131,86,131,86,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+22,119,79,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
-60,54,121,83,147,91,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
-
-For immediate treatment, Lie Down and Take Deep Breaths. 
-
-For Long Term treatment, consult your Doctor.
-Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
-60,54,134,87,134,87,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+23,120,79,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+24,120,79,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+25,121,80,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+26,121,80,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+27,121,80,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+28,121,80,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+29,121,80,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+30,122,81,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+31,122,81,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+32,122,81,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+33,122,81,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+34,122,81,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+35,123,82,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+36,123,82,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+37,123,82,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+38,123,82,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+39,123,82,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+40,124,83,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+41,124,83,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+42,124,83,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+43,124,83,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+44,124,83,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+45,125,84,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+46,125,84,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+47,125,84,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+48,125,84,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+49,125,84,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+50,126,85,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+51,126,85,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+52,126,85,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+53,126,85,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+54,127,85,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+55,127,86,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+56,127,86,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+57,128,86,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+58,129,86,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+59,129,86,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+60,130,87,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+61,130,87,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+62,131,87,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+63,132,87,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+64,133,87,50,86,YES,"Always bring your water. Get enough rest before your Long Ride.
 Don't forget to bring your medicine kit."
