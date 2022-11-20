@@ -59,26 +59,9 @@ def recommend_program():
         allow = allow[0]
 
         #Suggestions
-        X = pd.DataFrame(np.c_[
-            DATA_CSV_FILE['age'],
-            DATA_CSV_FILE['systolic'],
-            DATA_CSV_FILE['diastolic'],
-            DATA_CSV_FILE['heart_rate'],
-            DATA_CSV_FILE['respiration_rate'],
-            ],
-            columns = ['age',
-            'systolic',
-            'diastolic',
-            'heart_rate',
-            'respiration_rate',
-            ])
-        Y = DATA_CSV_FILE['suggestion']
-
-        clf = DecisionTreeClassifier()
-        clf.fit(X, Y)
-
-        suggestion = clf.predict([[age, blood_pressure_systolic, blood_pressure_diastolic, heart_rate, respiration]])
-        suggestion = suggestion[0]
+        suggestion = DATA_CSV_FILE[DATA_CSV_FILE['allow_ride'] == allow]
+        suggestion = suggestion.head(1)
+        suggestion = suggestion._get_value(0, 'suggestion')
 
         return jsonify({"allow":allow, "suggestions":suggestion})
     else:
