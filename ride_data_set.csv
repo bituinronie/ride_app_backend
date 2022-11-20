@@ -1,0 +1,81 @@
+min_age,max_age,low_systolic,low_diastolic,high_systolic,high_diastolic,heart_below,heart_above,respiration_below,allow_ride,suggestion
+14,19,105,73,120,87,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+14,19,117,77,117,77,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+20,24,108,75,132,83,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+20,24,120,79,120,79,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+25,29,109,76,133,84,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+25,29,121,80,133,84,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+30,34,110,77,134,85,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+30,34,122,81,134,85,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+35,39,111,78,135,86,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+35,39,123,82,123,82,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+40,44,112,79,137,87,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+40,44,125,83,125,83,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+45,49,115,80,139,88,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+45,49,127,84,127,84,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+50,54,116,81,142,89,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+50,54,129,85,129,85,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+55,59,118,82,144,90,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+55,59,131,86,131,86,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
+60,54,121,83,147,91,48,82,85,No,"Always bring your water. Get enough rest until your vital sign is back to normal.
+
+For immediate treatment, Lie Down and Take Deep Breaths. 
+
+For Long Term treatment, consult your Doctor.
+Ask for recommended maintenance for your Blood Pressure, Heart Rate, and Respiration Rate."
+60,54,134,87,134,87,49,81,86,Yes,"Always bring your water. Get enough rest before your Long Ride.
+Don't forget to bring your medicine kit."
