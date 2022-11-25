@@ -9,7 +9,8 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 # enable CORS
-CORS(app, resources={r'/*': {'origins': '*'}})
+# CORS(app, resources={r'/*': {'origins': '*'}})
+CORS(app)
 
 @app.route('/', methods = ['GET'])
 def get_articles():
