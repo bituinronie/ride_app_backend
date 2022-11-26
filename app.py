@@ -9,8 +9,8 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 # enable CORS
-# CORS(app, resources={r'/*': {'origins': '*'}})
-CORS(app)
+CORS(app, resources={r'/*': {'origins': '*'}})
+# CORS(app)
 
 @app.route('/', methods = ['GET'])
 def get_articles():
@@ -20,7 +20,6 @@ def get_articles():
 recommendedProgram = "NA"
 
 @app.route('/get-suggestion', methods = ['GET', 'POST'])
-@cross_origin()
 def recommend_program():
     if request.method == 'POST':
         #Algorithm here - Decision Tree
@@ -38,7 +37,6 @@ def recommend_program():
         DATA_CSV_FILE = pd.read_csv('ride_data_set.csv')
         DATA_CSV_FILE.isnull().sum()
 
-        print(DATA_CSV_FILE)
         X = pd.DataFrame(np.c_[
             DATA_CSV_FILE['age'],
             DATA_CSV_FILE['systolic'],
@@ -61,9 +59,10 @@ def recommend_program():
         allow = allow[0]
 
         #Suggestions
-        suggestion = DATA_CSV_FILE[DATA_CSV_FILE['allow_ride'] == allow]
-        suggestion = suggestion.head(1)
-        suggestion = suggestion._get_value(0, 'suggestion')
+        suggestions = DATA_CSV_FILE[DATA_CSV_FILE['allow_ride'] == allow]
+        suggestions = suggestions.head(1)
+        suggestion = suggestions['suggestion'].values[0]
+        # suggestion = suggestions._get_value(0, 'suggestion')
 
         return jsonify({"allow":allow, "suggestions":suggestion})
     else:
