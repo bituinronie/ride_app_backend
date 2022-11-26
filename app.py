@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 # configuration
 DEBUG = True
@@ -20,6 +20,7 @@ def get_articles():
 recommendedProgram = "NA"
 
 @app.route('/get-suggestion', methods = ['GET', 'POST'])
+@cross_origin()
 def recommend_program():
     if request.method == 'POST':
         #Algorithm here - Decision Tree
