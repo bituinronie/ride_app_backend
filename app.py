@@ -13,7 +13,7 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route('/', methods = ['GET'])
 def get_articles():
-    return jsonify({"Hello":"World"})
+    return jsonify({"message":"If you see this message, it means the server is working correctly."})
 
 @app.route('/get-suggestion', methods = ['GET', 'POST'])
 def recommend_program():
