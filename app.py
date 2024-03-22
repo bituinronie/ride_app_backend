@@ -22,12 +22,15 @@ def train_model():
     import numpy as np
     import pandas as pd
     from sklearn.ensemble import RandomForestClassifier
+    from sklearn.preprocessing import LabelEncoder
     import joblib
 
     # Load the data into a pandas dataframe
     DATA_CSV_FILE = pd.read_csv('data_is_fit.csv')
     DATA_CSV_FILE = DATA_CSV_FILE.dropna()
-    DATA_CSV_FILE.isnull().sum()
+
+    le = LabelEncoder()
+    DATA_CSV_FILE['Time_of_Day'] = le.fit_transform(DATA_CSV_FILE['Time_of_Day'])
 
     X = DATA_CSV_FILE.drop('Is_Fit', axis=1)
     Y = DATA_CSV_FILE['Is_Fit']
