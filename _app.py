@@ -21,19 +21,30 @@ def train_model():
     #import libraries
     import numpy as np
     import pandas as pd
-    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.tree import DecisionTreeClassifier
     import joblib
 
     # Load the data into a pandas dataframe
-    DATA_CSV_FILE = pd.read_csv('data_is_fit.csv')
-    DATA_CSV_FILE = DATA_CSV_FILE.dropna()
+    DATA_CSV_FILE = pd.read_csv('ride_data_set.csv')
     DATA_CSV_FILE.isnull().sum()
 
-    X = DATA_CSV_FILE.drop('Is_Fit', axis=1)
-    Y = DATA_CSV_FILE['Is_Fit']
+    X = pd.DataFrame(np.c_[
+        DATA_CSV_FILE['age'],
+        DATA_CSV_FILE['systolic'],
+        DATA_CSV_FILE['diastolic'],
+        DATA_CSV_FILE['heart_rate'],
+        DATA_CSV_FILE['respiration_rate'],
+    ],
+    columns = ['age',
+        'systolic',
+        'diastolic',
+        'heart_rate',
+        'respiration_rate',
+    ])
+    Y = DATA_CSV_FILE['allow_ride']
 
     # Train the model
-    clf = RandomForestClassifier(n_estimators=100, random_state=42)
+    clf = DecisionTreeClassifier()
     clf.fit(X, Y)
 
     # Save the trained model as a .pkl file
