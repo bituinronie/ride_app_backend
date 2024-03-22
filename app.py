@@ -47,6 +47,18 @@ def train_model():
 @app.route('/get-suggestion', methods = ['GET', 'POST'])
 def recommend_suggest():
     if request.method == 'POST':
+        # Heart_Rate_(BPM)
+        # HRV_(ms)
+        # Systolic_BP_(mmHg)
+        # Diastolic_BP_(mmHg)
+        # Respiration_Rate_(Breaths_per_Minute)
+        # Blood_Oxygen_Level_(SpO2)
+        # Ambient_Temperature_(C)
+        # Ambient_Noise_Level_(dB)
+        # Time_of_Day
+        # Previous_Activity_Level_(Steps)
+        # Age
+        # Is_Fit
         try:
             #import libraries
             import joblib
@@ -54,19 +66,38 @@ def recommend_suggest():
             import pandas as pd
 
             # Get the data from the POST request.
+            heart_rate_bpm = request.form.get('heart_rate_bpm')
+            hrv = request.form.get('hrv')
+            systolic_bp = request.form.get('systolic_bp')
+            diastolic_bp = request.form.get('diastolic_bp')
+            respiration_rate = request.form.get('respiration_rate')
+            blood_oxygen_level = request.form.get('blood_oxygen_level')
+            ambient_temperature = request.form.get('ambient_temperature')
+            ambient_noise_level = request.form.get('ambient_noise_level')
+            time_of_day = request.form.get('time_of_day')
+            previous_activity_level = request.form.get('previous_activity_level')
             age = request.form.get('age')
-            blood_pressure_systolic = request.form.get('blood_pressure_systolic')
-            blood_pressure_diastolic = request.form.get('blood_pressure_diastolic')
-            heart_rate = request.form.get('heart_rate')
-            respiration = request.form.get('respiration')
+            
+
+            # Get the data from the POST request.
+            # age = request.form.get('age')
+            # blood_pressure_systolic = request.form.get('blood_pressure_systolic')
+            # blood_pressure_diastolic = request.form.get('blood_pressure_diastolic')
+            # heart_rate = request.form.get('heart_rate')
+            # respiration = request.form.get('respiration')
             
             DATA_CSV_FILE = pd.read_csv('ride_data_set.csv')
 
             # Load the model from the saved .pkl file
             clf = joblib.load("trained_model.pkl")
 
-            allow = clf.predict([[age, blood_pressure_systolic, blood_pressure_diastolic, heart_rate, respiration]])
+            allow = clf.predict([[heart_rate_bpm, hrv, systolic_bp, diastolic_bp, respiration_rate, blood_oxygen_level, ambient_temperature, ambient_noise_level, time_of_day, previous_activity_level, age]])
             allow = allow[0]
+
+            if allow == 1:
+                allow = 'YES'
+            else:
+                allow = 'NO'
 
             #Suggestions
             suggestions = DATA_CSV_FILE[DATA_CSV_FILE['allow_ride'] == allow]
